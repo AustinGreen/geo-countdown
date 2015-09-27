@@ -38,14 +38,10 @@
 // ==========================================================================
 @import "states/index";
 
-img,
-#getting-started {
+#countdown {
   position: absolute;
   top: 50%;
   left: 50%;
   @include transform(translate(-50%, -50%));
-}
-
-img {
-  top: 25%;
+  font-size: em(40px);
 }

@@ -12,7 +12,7 @@ $box-model: border-box;
 
 body {
 	color: palette(black);
-  font-size: 5em;
+  font-size: $base__font-size;
   font-family: $font-family--primary;
   font-weight: $font-weight--bold;
   line-height: ($base__line/$base__font-size);
